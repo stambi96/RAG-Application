@@ -12,8 +12,8 @@ from langchain_community.document_loaders import PyMuPDFLoader # document loader
 from langchain_core.documents import Document             # Representing chunks of data (text + metadata) from loaded documents
 from langchain_text_splitters import RecursiveCharacterTextSplitter  # text chunking utility designed to break large text blocks into smaller, overlapping chunks—while trying to keep them semantically meaningful.
 from sentence_transformers import CrossEncoder
-""" A CrossEncoder is a model that takes a pair of inputs (e.g. a query and a passage) and directly predicts a relevance score.
-Unlike embedding-based models (which encode query and document separately), CrossEncoders consider both together for more precise ranking."""
+# A CrossEncoder is a model that takes a pair of inputs (e.g. a query and a passage) and directly predicts a relevance score.
+# Unlike embedding-based models (which encode query and document separately), CrossEncoders consider both together for more precise ranking.
 from streamlit.runtime.uploaded_file_manager import UploadedFile   # helper class used internally by Streamlit to represent files uploaded 
 
 system_prompt = """
