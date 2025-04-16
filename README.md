@@ -45,8 +45,9 @@ Once the dependencies are installed, start the app using the command:
 ```bash
 streamlit run rag_app.py
 ```
-
 Note: Ollama should be running in the backgroud before running this python script.
+
+
 ---
 
 ## 🎉 You're Ready!
